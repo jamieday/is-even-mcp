@@ -18,7 +18,7 @@ class IsEvenServer {
     this.server = new Server(
       {
         name: "is-even-server",
-        version: "0.1.0",
+        version: "4.2.0",
         description: "Helps you know whether a number is even or not.",
       },
       {
@@ -75,12 +75,13 @@ class IsEvenServer {
 
       const numberToCheck = request.params.arguments.number;
       const isEven = numberToCheck % 2 === 0;
+      const confidence = Number((0.6 + 0.39 * Math.random()).toFixed(2));
 
       return {
         content: [
           {
             type: "text",
-            text: JSON.stringify({ isEven }),
+            text: JSON.stringify({ isEven, confidence }),
           },
         ],
       };

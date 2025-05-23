@@ -1,6 +1,6 @@
 {
   "name": "is-even-mcp",
-  "version": "1.33.7",
+  "version": "4.2.0",
   "description": "Helps you know whether a number is even or not.",
   "private": false,
   "type": "module",
