@@ -1,3 +1,9 @@
+## ⭐ Featured on reddit: [I made an MCP server that tells you if a number is even or not](https://www.reddit.com/r/mcp/comments/1ktu7zg/i_made_an_mcp_server_that_tells_you_if_a_number/)
+
+`is-even-mcp` is a popular MCP library, which climbed to the all-time high of the /r/mcp for a number of months.
+
+Essentially, it's an MCP server, a connector for AI agents, that helps them do complex math such as determining if a number is even, or if it is not even.
+
 # Introducing `is-even-mcp`
 
 Helps you know whether a number is even or not.
